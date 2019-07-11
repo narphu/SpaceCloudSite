@@ -18,7 +18,7 @@ This project provides a simulation environment that can be used to evaluate a sc
 ## Bitbucket Source Code Repository
 [Latest Source Code](https://bitbucket.org/DawnZhang/airforce/src/develop/)
 
-_Note: The code in GNAT_Docker is under constant development from our partner developer. Some changes might lead to bugs or errors if using the simulator using the old json files/mastercontroller/scripts and new source code. We are constantly trying to update the files to maintain uniformity across all the aspects. We apologise for any inconcenience caused in advance._
+_Note: The code in GNAT_Docker is under constant development from our partner developer. Some changes might lead to bugs or errors if running the simulator using the old json files/mastercontroller/scripts and new source code. We are constantly trying to update the files to maintain uniformity across all the aspects of the emulator. We apologise for any inconvenience caused in advance._
 
 ### Markdown
 
