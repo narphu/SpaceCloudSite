@@ -15,10 +15,10 @@ This project provides a simulation environment that can be used to evaluate a sc
 
 [Release VM Version 1.0](https://drive.google.com/drive/folders/1Q4xO22gOut770oWz0WkOZw57l22u55Gf?usp=sharing)
 
+## Bitbucket Source Code Repository
+[Latest Source Code](https://bitbucket.org/DawnZhang/airforce/src/develop/)
 
-You can use the [editor on GitHub](https://github.com/nprabhu2195/SpaceCloudSite/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*Note: The code in GNAT_Docker is under constant development from our partner developer. Some changes might lead to bugs or errors if using the simulator using the old json files/mastercontroller/scripts and new source code. We are constantly trying to update the files to maintain uniformity across all the aspects. We apologise for any inconcenience caused in advance. 
 
 ### Markdown
 
