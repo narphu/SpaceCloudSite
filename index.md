@@ -1,6 +1,8 @@
 ## Overview
 
-This project provides a simulation environment that can be used to evaluate a scalable collection of Global Network Access Terminals (GNATs), a concept under investigation as part of the Space Combat Cloud Project. <img src="https://github.com/nprabhu2195/SpaceCloudSite/blob/master/Imageforwebsite.jpg" width="70%" height="70%">
+This project provides a simulation environment that can be used to evaluate a scalable collection of Global Network Access Terminals (GNATs), a concept under investigation as part of the Space Combat Cloud Project.
+<img src="https://github.com/nprabhu2195/SpaceCloudSite/blob/master/Imageforwebsite.jpg" width="70%" height="70%">
+
 The environment is used to simulate a mesh network of satellites/GPS systems connected to work in tandem. Docker containers are used to represent each satellite and OVS is used to interconnect them to form a communication network. Each satellite encloses multiple nested Docker containers designated to act as components and interconnected via OVS. 
 
 
