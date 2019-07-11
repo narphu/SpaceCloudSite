@@ -1,6 +1,8 @@
 ## Overview
 
-This project provides a simulation environment that can be used to evaluate a scalable collection of Global Network Access Terminals (GNATs), a concept under investigation as part of the Space Combat Cloud Project. . The environment is used to simulate a mesh network of satellites/GPS systems connected to work in tandem. Docker containers are used to represent each satellite and OVS is used to interconnect them to form a communication network. Each satellite encloses multiple nested Docker containers designated to act as components and interconnected via OVS. 
+This project provides a simulation environment that can be used to evaluate a scalable collection of Global Network Access Terminals (GNATs), a concept under investigation as part of the Space Combat Cloud Project. 
+![Image](src)
+The environment is used to simulate a mesh network of satellites/GPS systems connected to work in tandem. Docker containers are used to represent each satellite and OVS is used to interconnect them to form a communication network. Each satellite encloses multiple nested Docker containers designated to act as components and interconnected via OVS. 
 
 
 ## News and Releases
@@ -28,21 +30,16 @@ _Note: The code in GNAT_Docker is under constant development from our partner de
 An Ubuntu 16.04 operating system is necessary to run the simulator, as the newest version does not support the Linux kernel modules and Linux-headers dependencies needed for the OpenvSwitch installation. The kernel version used was 4.4.0.138. Older kernel versions might add arbitrary padding to UDP raw packets and cause data communication checksum issues. 
 
 ```markdown
-Installation for Docker and OpenvSwitch on personal host
+Build the emulator using the scripts
 
-# Header 1
-## Header 2
-### Header 3
+# Build a 32-node emulator with docker containers
+Use scripts from the /home/airforce/scripts directory in the VM
+`./env_setup.sh -s 31 -p 4 -g 1`
 
-- Bulleted
-- List
+# Clear the 32-node emulator
+`./env_clear.sh -s 31 -p 4 -g 1`
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Other commands are elaborated in the document
 ```
 
 ### Support or Contact
