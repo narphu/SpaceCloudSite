@@ -6,10 +6,14 @@ This project provides a simulation environment that can be used to evaluate a sc
 ## News and Releases
 
 ### 07-11-2019: 
-[Release Version 2.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc2.0.pdf)
+[Release Document Version 2.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc2.0.pdf)
+
+[Release VM Version 2.0](https://drive.google.com/drive/folders/1O8I_HlIIV7AfLQYlbiITgpC0-AUNQ6qu?usp=sharing)
 
 ### 03-15-2019: 
-[Release Version 1.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc1.0.pdf)
+[Release Document Version 1.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc1.0.pdf)
+
+[Release VM Version 1.0](https://drive.google.com/drive/folders/1Q4xO22gOut770oWz0WkOZw57l22u55Gf?usp=sharing)
 
 
 You can use the [editor on GitHub](https://github.com/nprabhu2195/SpaceCloudSite/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
