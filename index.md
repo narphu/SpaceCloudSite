@@ -2,6 +2,16 @@
 
 This project provides a simulation environment that can be used to evaluate a scalable collection of Global Network Access Terminals (GNATs), a concept under investigation as part of the Space Combat Cloud Project. . The environment is used to simulate a mesh network of satellites/GPS systems connected to work in tandem. Docker containers are used to represent each satellite and OVS is used to interconnect them to form a communication network. Each satellite encloses multiple nested Docker containers designated to act as components and interconnected via OVS. 
 
+
+## News and Releases
+
+### 07-11-2019: 
+[Release Version 2.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc2.0.pdf)
+
+### 03-15-2019: 
+[Release Version 1.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc1.0.pdf)
+
+
 You can use the [editor on GitHub](https://github.com/nprabhu2195/SpaceCloudSite/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
