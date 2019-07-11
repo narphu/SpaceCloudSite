@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Space Cloud Emulator
-# Docker-based Emulator for Space Cloud Project
+description: Docker-based Emulator for Space Cloud Project
+show_downloads: true
