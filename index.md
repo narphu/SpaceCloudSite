@@ -6,26 +6,29 @@ This project provides a simulation environment that can be used to evaluate a sc
 ## News and Releases
 
 ### 07-11-2019: 
+
+Supports 32-node simulation for a long duration simulation. Source code of the components changed to support multiple satellite communication over several time slots. Minor bug fixes.
 [Release Document Version 2.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc2.0.pdf)
 
 [Release VM Version 2.0](https://drive.google.com/drive/folders/1O8I_HlIIV7AfLQYlbiITgpC0-AUNQ6qu?usp=sharing)
 
 ### 03-15-2019: 
+Version able to support four node simulation using bash terminals and for one time slot.
 [Release Document Version 1.0](https://github.com/nprabhu2195/SpaceCloudSite/blob/master/spacecloud-sim_doc1.0.pdf)
 
 [Release VM Version 1.0](https://drive.google.com/drive/folders/1Q4xO22gOut770oWz0WkOZw57l22u55Gf?usp=sharing)
 
-## Bitbucket Source Code Repository
+### Bitbucket Source Code Repository
 [Latest Source Code](https://bitbucket.org/DawnZhang/airforce/src/develop/)
 
 _Note: The code in GNAT_Docker is under constant development from our partner developer. Some changes might lead to bugs or errors if running the simulator using the old json files/mastercontroller/scripts and new source code. We are constantly trying to update the files to maintain uniformity across all the aspects of the emulator. We apologise for any inconvenience caused in advance._
 
-### Markdown
+### Prerequisites
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+An Ubuntu 16.04 operating system is necessary to run the simulator, as the newest version does not support the Linux kernel modules and Linux-headers dependencies needed for the OpenvSwitch installation. The kernel version used was 4.4.0.138. Older kernel versions might add arbitrary padding to UDP raw packets and cause data communication checksum issues. 
 
 ```markdown
-Syntax highlighted code block
+Installation for Docker and OpenvSwitch on personal host
 
 # Header 1
 ## Header 2
@@ -41,12 +44,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nprabhu2195/SpaceCloudSite/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
