@@ -47,4 +47,4 @@ Installation for Docker and OpenvSwitch on personal host
 
 ### Support or Contact
 
-For any questions shoot a mail at [contact support](nprabhu@umass.edu).
+For any questions shoot a mail at: nprabhu@umass.edu.
