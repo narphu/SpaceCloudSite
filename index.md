@@ -35,11 +35,11 @@ An Ubuntu 16.04 operating system is necessary to run the simulator, as the newes
 Build the emulator using the scripts
 
 # Build a 32-node emulator with docker containers
-Use scripts from the /home/airforce/scripts directory in the VM
-**./env_setup.sh -s 31 -p 4 -g 1**
+Use scripts from the /home/Airforce/airforce/scripts directory in the VM
+./env_setup.sh -s 31 -p 4 -g 1
 
 # Clear the 32-node emulator
-**./env_clear.sh -s 31 -p 4 -g 1**
+./env_clear.sh -s 31 -p 4 -g 1
 
 Other commands are elaborated in the document
 ```
